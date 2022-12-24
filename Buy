@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+void main()
+
+{/*Объявить переменные с помощью которых можно будет посчитать общую сумму покупки нескольких товаров.
+ Например плитки шоколада, кофе и пакеты молока.*/
+	float a, b, c, d ;
+
+	cout << "Enter the price of Chocolate: " << endl;
+	cin >> a;
+	cout << "Enter the price of Coffe: " << endl;
+	cin >> b;
+	cout << "Enter the price of Milk: " << endl;
+	cin >> c;
+	d = a + b + c;
+	cout << "Summ of you shopping = " << d <<endl;
+	
+}
